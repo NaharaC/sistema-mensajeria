@@ -6,6 +6,18 @@
 
 /* font-family */
 
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .roboto-bold {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -26,6 +38,7 @@
 :root {
     --white: #FFF;
     --platinum: #E8EBE4;
+    --platinum-1: #F8F8F8;
     --gray: #BEC1BB;
     --blue-bell: #A491D2;
     --soap: #CDC3E6;
@@ -35,3 +48,121 @@
     --old-silver: #828485;
 }
 
+.bg-platinum-1 {
+    background-color: var(--platinum-1);
+}
+
+.bg-blue-bell {
+    background-color: var(--blue-bell);
+}
+
+.color-platinum {
+    color: var(--gray);
+}
+
+.first-division {
+    display: flex;
+}
+
+.contacts-section {
+    width: 25%;
+}
+
+.divider {
+    background-color: var(--platinum);
+    height: 3px;
+    width: 100%;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    color: var(--white);
+    padding: 15px 30px 15px 30px;
+    border: 0;
+    width: 70%;
+    margin: 50px;
+    font-size: 16px;
+
+}
+
+.button:hover {
+    background-color: var(--soap);
+}
+
+.button:focus {
+    background-color: var(--gray);
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 75%;
+}
+
+.logo-size {
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    padding: 0px 20px 0px 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    width: 50px;
+    margin: 10px;
+}
+
+.picture {
+    border-radius: 100%;
+    width: 70px;
+    margin: 10px;
+}
+
+.profile-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.state {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+i {
+    margin: 10px;
+}
+
+p {
+    margin: 5px 0px 5px 0px;
+}
